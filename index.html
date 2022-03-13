@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="./assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End Plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <h2>Logo</h2>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          
+          <div class="d-none d-md-flex justify-content-center align-items-center">
+            <a href="/home.html" style="text-decoration: none; color: #333" >
+              <div class="custom-nav-link"  >
+                <p>Home</p>
+              </div>
+            </a>
+            <a href="/" style="text-decoration: none;" >
+              <div class="custom-active custom-nav-link" >
+                <p>Dashboard</p>
+              </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: #333">
+              <div class="custom-nav-link" >
+                <p>Settings</p>
+              </div>
+            </a>
+            
+          </div>
+          <nav>
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+              <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            </div>
+          </nav>
+         
+          <ul class="navbar-nav navbar-nav-right">
+            
+            
+            <li class="nav-item nav-settings d-none d-lg-block">
+              <div class="search-field d-none d-md-block">
+                <form class="d-flex align-items-center h-100" action="#">
+                  <div class="input-group">
+                    <div class="input-group-prepend bg-transparent">
+                      <i class="input-group-text border-0 mdi mdi-magnify"></i>
+                    </div>
+                    <input type="text" class="form-control bg-transparent border-0" placeholder="Search projects">
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="mdi mdi-apps"></i>
+                <span class="count-symbol bg-warning"></span>
+              </a>
+              
+            </li>
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="../../assets/images/faces/face1.jpg" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                
+                
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-cached me-2 text-success"></i> Activity Log </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+              </div>
+              
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid mt-5 mt-md-0 page-body-wrapper full-page-wrapper">
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header d-flex justify-content-between">
+              <h3 class="page-title"> DASHBOARD </h3>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <div>
+
+              </div>
+            </div>
+
+            <!-- FIRST ROW STARTS -->
+            <div class="row">
+
+              <div class="col-md-7">
+
+                <div class="row mb-1">
+                  <div class="col-md-4 mx-0 px-2">
+                    <div class="card mx-0 p-3 mb-3 bg-gradient-danger card-img-holder text-white">
+                        <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                        <div class="d-flex justify-content-between">
+                          <h3 class="mb-2">95</h3>
+                          <i class="mdi mdi-settings mdi-24px float-right"></i>
+                        </div>
+                        
+                        <h6 class="card-text">Total Assets</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mx-0 px-2">
+                    <div class="card p-3 mb-3 bg-gradient-info card-img-holder text-white">
+                        <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                        <div class="d-flex justify-content-between">
+                          <h3 class="mb-2">80</h3>
+                          <i class="mdi mdi-settings mdi-24px float-right"></i>
+                        </div>
+                        
+                        <h6 class="card-text">Assets in use</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mx-0 px-2">
+                    <div class="card p-3 mb-3 bg-gradient-primary card-img-holder text-white">
+                        <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                        <div class="d-flex justify-content-between">
+                          <h3 class="mb-2">08</h3>
+                          <i class="mdi mdi-settings mdi-24px float-right"></i>
+                        </div>
+                        
+                        <h6 class="card-text">Assets in Cooldown</h6>
+                    </div>
+                  </div>
+                  
+                </div>
+               
+                
+                <div class="row">
+                  
+                  <div class="col-md-6 px-2 mb-3">
+                    <div class="card p-4">
+                      <h4>Title</h4>
+                        <canvas id="doughnutChart" style="height:285px"></canvas>
+                    </div>
+                  </div>
+                  <div class="col-md-6 px-2 mb-3">
+                    <div class="card p-4">
+                      <h4>Title</h4>
+                        <canvas id="doughnutChart2" style="height:285px"></canvas>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-6 col-md-3 mb-3 px-2">
+                    <div class="card px-5 py-4 bg-custom-red">
+                      <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-danger font-weight-bold" >45</h2>
+                        <p>Text Here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 mb-3 px-2">
+                    <div class="card px-5 py-4 bg-custom-red">
+                      <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-danger font-weight-bold" >45</h2>
+                        <p>Text Here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 mb-3 px-2">
+                    <div class="card px-5 py-4 bg-custom-red">
+                      <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-danger font-weight-bold" >45</h2>
+                        <p>Text Here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 mb-3 px-2">
+                    <div class="card px-5 py-4 bg-custom-red">
+                      <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-danger font-weight-bold" >45</h2>
+                        <p>Text Here</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-5 px-2">
+                <div class="row">
+                  
+                  <div class="col-12">
+
+                    <div class="card " >
+                      <div class="card-body px-3" style="height: 305px;" >
+                        <h4 class="card-title">Activity Feed</h4>
+                        <div class="table-responsive" style="height: 180px;">
+                          <table class="table table" style="height: 280px ; overflow: auto;">
+                            <thead>
+                              <tr>
+                                <th> Subject </th>
+                                <th> Status </th>
+                                <th> Last Update </th>
+                                <th> Tracking ID </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                               
+                                <td> Fund is not recieved </td>
+                                <td>
+                                  <label class="badge badge-gradient-success">DONE</label>
+                                </td>
+                                <td> Dec 5, 2017 </td>
+                                <td> WD-12345 </td>
+                              </tr>
+                              <tr>
+                                
+                                <td> High loading time </td>
+                                <td>
+                                  <label class="badge badge-gradient-warning">PROGRESS</label>
+                                </td>
+                                <td> Dec 12, 2017 </td>
+                                <td> WD-12346 </td>
+                              </tr>
+                              <tr>
+                                
+                                <td> Website down for one week </td>
+                                <td>
+                                  <label class="badge badge-gradient-info">ON HOLD</label>
+                                </td>
+                                <td> Dec 16, 2017 </td>
+                                <td> WD-12347 </td>
+                              </tr>
+                              <tr>
+                                
+                                <td> Loosing control on server </td>
+                                <td>
+                                  <label class="badge badge-gradient-danger">REJECTED</label>
+                                </td>
+                                <td> Dec 3, 2017 </td>
+                                <td> WD-12348 </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="col-12">
+
+                    <div class="card mt-3" >
+                      <div class="card-body" >
+                        <h4 class="card-title">Space Occupancy</h4>
+                        <div class="row">
+                          <div class="col-6 border-right-sm border-bottom ">
+                            <div class="px-3 py-1 d-flex justify-content-center align-items-center flex-column">
+                              <h2 class="text-primary">52</h2>
+                              <p>Total Seats</p>
+                            </div>
+                          </div>
+                          <div class="col-6 border-left-sm border-bottom ">
+                            <div class="px-3 py-1 d-flex justify-content-center align-items-center flex-column">
+                              <h2 class="text-warning">26</h2>
+                              <p>Allocated Seats</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-6 border-right-sm border-top">
+                            <div class="px-3 py-1 d-flex justify-content-center align-items-center flex-column">
+                              <h2 class="text-success">06</h2>
+                              <p>Unallocated Seats</p>
+                            </div>
+                          </div>
+                          <div class="col-6 border-left-sm border-top">
+                            <div class="px-3 py-1 d-flex justify-content-center align-items-center flex-column">
+                              <h2 class="text-danger">20</h2>
+                              <p>Occupied Seats</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                
+
+              </div>
+            </div>
+            <!-- FIRST ROW ENDS -->
+
+            <!-- SECOND ROW STARTS -->
+            <div class="row">
+            
+              <div class="col-md-6 px-2">
+
+                <div class="card mt-3">
+                  <div class="card-body px-3">
+                    <h4 class="card-title">Asset Details</h4>
+                    <div class="table-responsive ">
+
+                      <table class="table w-100 text-center">
+                        <thead class="bg-custom-blue text-primary" >
+                          <tr>
+                            <th style="width: 100px;" rowspan="2" > Priority</th>
+                            <th  colspan="5" > No of Days</th>
+                          </tr>
+                          <tr>
+                            <th style="width: 130px;" >0-10</th>
+                            <th style="width: 130px;" >10-20</th>
+                            <th style="width: 130px;" >20-30</th>
+                            <th style="width: 130px;" >30-40</th>
+                            <th style="width: 130px;" >40+</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>P1</td>
+                            <td>25</td>
+                            <td>32</td>
+                            <td>40</td>
+                            <td>51</td>
+                            <td>68</td>
+                          </tr>
+                          <tr>
+                            <td>P2</td>
+                            <td>25</td>
+                            <td>32</td>
+                            <td>40</td>
+                            <td>51</td>
+                            <td>68</td>
+                          </tr>
+                          <tr>
+                            <td>P3</td>
+                            <td>25</td>
+                            <td>32</td>
+                            <td>40</td>
+                            <td>51</td>
+                            <td>68</td>
+                          </tr>
+                          <tr>
+                            <td>P4</td>
+                            <td>25</td>
+                            <td>32</td>
+                            <td>40</td>
+                            <td>51</td>
+                            <td>68</td>
+                          </tr>
+                          <tr>
+                            <td>P5</td>
+                            <td>25</td>
+                            <td>32</td>
+                            <td>40</td>
+                            <td>51</td>
+                            <td>68</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                    </div>
+                    <div class="card px-5 pb-2 bg-custom-green ">
+                      <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="text-success font-weight-bold" >07<span class="small" style="font-size: 20px;" >days</span></h2>
+                        <p>Average Time Taken to resolve a ticket</p>
+                      </div>
+                    </div>
+                </div>  
+                </div>
+              </div>
+
+              <div class="col-md-3 px-2" >
+                <div class="card mt-3 p-3">
+                    <h4 class="card-title">Resolution TAT</h4>
+                    <canvas id="barChart1" style="height:415px"></canvas>
+                    <p class="text-center" >Resolution TAT Status</p>
+                </div>
+              </div>
+              
+              <div class="col-md-3 px-2" >
+                <div class="card mt-3 p-3">
+                    <h4 class="card-title">Response TAT</h4>
+                    <canvas id="barChart2" style="height:415px"></canvas>
+                    <p class="text-center" >Response TAT Status</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- SECOND ROW ENDS -->
+
+            <!-- THIRD ROW STARTS -->
+
+              <div class="row">
+                <div class="col-sm-6 px-2">
+                  <div class="card mt-3">
+                    <div class="card-body px-3">
+                      <h4 class="card-title">Asset Details</h4>
+                      <div class="table-responsive " style="height: 265px; overflow-x:scroll; overflow-y: scroll">
+  
+                        <table class="table w-100 text-center"  >
+                          <thead class="bg-custom-blue text-primary" >
+                            <tr>
+                              <th>Master Name</th>
+                              <th>Budget</th>
+                              <th>Cost</th>
+                              <th>Unit</th>
+                              <th>Consumption</th>
+                              <th>Month to Date</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                            <tr>
+                              <td>Measure 1</td>
+                              <td>$2500000</td>
+                              <td>$1500000</td>
+                              <td>1Wh</td>
+                              <td>12</td>
+                              <td>$2850</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 px-2">
+                  <div class="card mt-3">
+                    <div class="card-body">
+                      <h4 class="card-title">Line chart</h4>
+                      <canvas id="lineChart" style="height:250px"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- THIRD ROW ENDS -->
+            
+            <!--<div class="row">
+              <div class="col-lg-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Area chart</h4>
+                    <canvas id="areaChart" style="height:250px"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Doughnut chart</h4>
+                    <canvas id="doughnutChart" style="height:250px"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Pie chart</h4>
+                    <canvas id="pieChart" style="height:250px"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Scatter chart</h4>
+                    <canvas id="scatterChart" style="height:250px"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © Arsh Sheikh</span>
+              
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../assets/vendors/chart.js/Chart.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="../../assets/js/chart.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
