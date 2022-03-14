@@ -19852,3 +19852,50 @@ input:checked + .slider:before {
 .bg-custom-blue {
   background: #f0f3f8;
 }
+.bouton-image1:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  /* background-color: transparent; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.monBouton1:before {
+  background-image: url('/Menu & Asset List Icons/Add.png');
+}
+
+.bouton-image2:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  /* background-color: transparent; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.monBouton2:before {
+  background-image: url('/Menu & Asset List Icons/Import.png');
+}
+
+.bouton-image3:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  /* background-color: transparent; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.monBouton3:before {
+  background-image: url('/Menu & Asset List Icons/Filters.png');
+}
