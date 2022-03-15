@@ -19944,7 +19944,50 @@ input:checked + .slider:before {
 .monBouton6:before {
   background-image: url('/Menu & Asset List Icons/Export.png');
 }
+.redText {
+  display: block;
+  background-color: #e2445b;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.greenText {
+  display: block;
+  background-color: #01c875;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
+.blueText {
+  display: block;
+  background-color: #8c54ff;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.disabledText {
+  background-color: #fff;
+  color: white;
+}
+
+/* display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529; */
 /* select {
   -webkit-appearance: none;
   -moz-appearance: none;

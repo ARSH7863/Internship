@@ -383,10 +383,7 @@
                                   <a class="dropdown-item" href="#">Separated link</a>
                                 </div>
                               </div> -->
-                              <select class="form-select" aria-label="Default select example">
-                                <button type="button" class="btn btn-outline-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  In Line
-                                </button>
+                              <select class="form-select" aria-label="Default select example" style="background-color: #01C875" >
                                 <!-- <option selected>Status...</option> -->
                                 <option selected disabled>Status</option>
                                 <option value="1">In Line</option>
@@ -429,10 +426,8 @@
                                   <a class="dropdown-item" href="#">Separated link</a>
                                 </div>
                               </div> -->
-                              <select class="form-select" aria-label="Default select example">
-                                <button type="button" class="btn btn-outline-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  In Line
-                                </button>
+                              <select class="form-select" aria-label="Default select example" style="background-color: #E2445B;">
+                              
                                 <!-- <option selected>Status...</option> -->
                                 <option selected disabled>Status</option>
                                 <option value="1">In Line</option>
@@ -465,16 +460,20 @@
                                 <a class="dropdown-item" href="#">Separated link</a>
                               </div>
                             </div> -->
-                            <select class="form-select" aria-label="Default select example">
-                              <button type="button" class="btn btn-outline-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                In Line
-                              </button>
-                              <!-- <option selected>Status...</option> -->
+                            <!-- <select class="form-select" aria-label="Default select example" style="background-color: #C0A1FF;">
+                             
                               <option selected disabled>Status</option>
                               <option value="1">In Line</option>
                               <option value="2">Breakdown</option>
                               <option value="3">Disposed</option>
-                            </select>
+                            </select> -->
+                            
+                            <select id="mySelect" class="greenText " aria-label="Status">
+                              <option selected disabled class="disabledText">Status</option>
+                              <option class="greenText" value="apple" >In Line</option>
+                              <option class="redText"   value="banana" >Breakdown</option>
+                              <option class="blueText" value="grape" >Disposed</option>
+                          </select>
                           </td>
                             <td>Haven Infoline</td>
                             <td>Jyoti Tower</td>
@@ -765,6 +764,7 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
+    <script src="/assets//js/btn.js"></script>
     <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
